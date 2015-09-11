@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80774DF21BA189E900B5053F /* SmartPenCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80774DF11BA189C800B5053F /* SmartPenCore.framework */; };
+		80774DF31BA189E900B5053F /* SmartPenCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80774DF11BA189C800B5053F /* SmartPenCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		808DC0E71B68780500BE05C5 /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 808DC0E61B68780500BE05C5 /* InfoController.m */; };
+		80DB30AC1B5FA682007246CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB30AB1B5FA682007246CD /* main.m */; };
+		80DB30AF1B5FA682007246CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB30AE1B5FA682007246CD /* AppDelegate.m */; };
+		80DB30B21B5FA682007246CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB30B11B5FA682007246CD /* ViewController.m */; };
+		80DB30B51B5FA682007246CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DB30B31B5FA682007246CD /* Main.storyboard */; };
+		80DB30B71B5FA682007246CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DB30B61B5FA682007246CD /* Images.xcassets */; };
+		80DB30BA1B5FA682007246CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80DB30B81B5FA682007246CD /* LaunchScreen.xib */; };
+		80DB30C61B5FA682007246CD /* SmartPenSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB30C51B5FA682007246CD /* SmartPenSampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80774DF01BA189C800B5053F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80774DEB1BA189C800B5053F /* SmartPenCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8088D8271B5740DF00DB2AD7;
+			remoteInfo = SmartPenCore;
+		};
+		80774DF41BA189E900B5053F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80774DEB1BA189C800B5053F /* SmartPenCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8088D8261B5740DF00DB2AD7;
+			remoteInfo = SmartPenCore;
+		};
+		80DB30C01B5FA682007246CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DB309E1B5FA682007246CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DB30A51B5FA682007246CD;
+			remoteInfo = SmartPenSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80774DF61BA189E900B5053F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				80774DF31BA189E900B5053F /* SmartPenCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80774DEB1BA189C800B5053F /* SmartPenCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SmartPenCore.xcodeproj; path = ../SmartPenCore/SmartPenCore.xcodeproj; sourceTree = "<group>"; };
+		808DC0E51B68780500BE05C5 /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoController.h; sourceTree = "<group>"; };
+		808DC0E61B68780500BE05C5 /* InfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoController.m; sourceTree = "<group>"; };
+		80DB30A61B5FA682007246CD /* SmartPenSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPenSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB30AA1B5FA682007246CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB30AB1B5FA682007246CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80DB30AD1B5FA682007246CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80DB30AE1B5FA682007246CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80DB30B01B5FA682007246CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80DB30B11B5FA682007246CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80DB30B41B5FA682007246CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80DB30B61B5FA682007246CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80DB30B91B5FA682007246CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80DB30BF1B5FA682007246CD /* SmartPenSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPenSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB30C41B5FA682007246CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB30C51B5FA682007246CD /* SmartPenSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPenSampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DB30A31B5FA682007246CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80774DF21BA189E900B5053F /* SmartPenCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB30BC1B5FA682007246CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80774DEC1BA189C800B5053F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80774DF11BA189C800B5053F /* SmartPenCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80DB309D1B5FA682007246CD = {
+			isa = PBXGroup;
+			children = (
+				80774DEB1BA189C800B5053F /* SmartPenCore.xcodeproj */,
+				80DB30A81B5FA682007246CD /* SmartPenSample */,
+				80DB30C21B5FA682007246CD /* SmartPenSampleTests */,
+				80DB30A71B5FA682007246CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80DB30A71B5FA682007246CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DB30A61B5FA682007246CD /* SmartPenSample.app */,
+				80DB30BF1B5FA682007246CD /* SmartPenSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80DB30A81B5FA682007246CD /* SmartPenSample */ = {
+			isa = PBXGroup;
+			children = (
+				80DB30AD1B5FA682007246CD /* AppDelegate.h */,
+				80DB30AE1B5FA682007246CD /* AppDelegate.m */,
+				80DB30B01B5FA682007246CD /* ViewController.h */,
+				80DB30B11B5FA682007246CD /* ViewController.m */,
+				80DB30B31B5FA682007246CD /* Main.storyboard */,
+				80DB30B61B5FA682007246CD /* Images.xcassets */,
+				80DB30B81B5FA682007246CD /* LaunchScreen.xib */,
+				80DB30A91B5FA682007246CD /* Supporting Files */,
+				808DC0E51B68780500BE05C5 /* InfoController.h */,
+				808DC0E61B68780500BE05C5 /* InfoController.m */,
+			);
+			path = SmartPenSample;
+			sourceTree = "<group>";
+		};
+		80DB30A91B5FA682007246CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DB30AA1B5FA682007246CD /* Info.plist */,
+				80DB30AB1B5FA682007246CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80DB30C21B5FA682007246CD /* SmartPenSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				80DB30C51B5FA682007246CD /* SmartPenSampleTests.m */,
+				80DB30C31B5FA682007246CD /* Supporting Files */,
+			);
+			path = SmartPenSampleTests;
+			sourceTree = "<group>";
+		};
+		80DB30C31B5FA682007246CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DB30C41B5FA682007246CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DB30A51B5FA682007246CD /* SmartPenSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB30C91B5FA682007246CD /* Build configuration list for PBXNativeTarget "SmartPenSample" */;
+			buildPhases = (
+				80DB30A21B5FA682007246CD /* Sources */,
+				80DB30A31B5FA682007246CD /* Frameworks */,
+				80DB30A41B5FA682007246CD /* Resources */,
+				80774DF61BA189E900B5053F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80774DF51BA189E900B5053F /* PBXTargetDependency */,
+			);
+			name = SmartPenSample;
+			productName = SmartPenSample;
+			productReference = 80DB30A61B5FA682007246CD /* SmartPenSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80DB30BE1B5FA682007246CD /* SmartPenSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB30CC1B5FA682007246CD /* Build configuration list for PBXNativeTarget "SmartPenSampleTests" */;
+			buildPhases = (
+				80DB30BB1B5FA682007246CD /* Sources */,
+				80DB30BC1B5FA682007246CD /* Frameworks */,
+				80DB30BD1B5FA682007246CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DB30C11B5FA682007246CD /* PBXTargetDependency */,
+			);
+			name = SmartPenSampleTests;
+			productName = SmartPenSampleTests;
+			productReference = 80DB30BF1B5FA682007246CD /* SmartPenSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80DB309E1B5FA682007246CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Xiaoz;
+				TargetAttributes = {
+					80DB30A51B5FA682007246CD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80DB30BE1B5FA682007246CD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 80DB30A51B5FA682007246CD;
+					};
+				};
+			};
+			buildConfigurationList = 80DB30A11B5FA682007246CD /* Build configuration list for PBXProject "SmartPenSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80DB309D1B5FA682007246CD;
+			productRefGroup = 80DB30A71B5FA682007246CD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 80774DEC1BA189C800B5053F /* Products */;
+					ProjectRef = 80774DEB1BA189C800B5053F /* SmartPenCore.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				80DB30A51B5FA682007246CD /* SmartPenSample */,
+				80DB30BE1B5FA682007246CD /* SmartPenSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		80774DF11BA189C800B5053F /* SmartPenCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SmartPenCore.framework;
+			remoteRef = 80774DF01BA189C800B5053F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80DB30A41B5FA682007246CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB30B51B5FA682007246CD /* Main.storyboard in Resources */,
+				80DB30BA1B5FA682007246CD /* LaunchScreen.xib in Resources */,
+				80DB30B71B5FA682007246CD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB30BD1B5FA682007246CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DB30A21B5FA682007246CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB30B21B5FA682007246CD /* ViewController.m in Sources */,
+				80DB30AF1B5FA682007246CD /* AppDelegate.m in Sources */,
+				80DB30AC1B5FA682007246CD /* main.m in Sources */,
+				808DC0E71B68780500BE05C5 /* InfoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB30BB1B5FA682007246CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB30C61B5FA682007246CD /* SmartPenSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80774DF51BA189E900B5053F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartPenCore;
+			targetProxy = 80774DF41BA189E900B5053F /* PBXContainerItemProxy */;
+		};
+		80DB30C11B5FA682007246CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DB30A51B5FA682007246CD /* SmartPenSample */;
+			targetProxy = 80DB30C01B5FA682007246CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80DB30B31B5FA682007246CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80DB30B41B5FA682007246CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80DB30B81B5FA682007246CD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80DB30B91B5FA682007246CD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80DB30C71B5FA682007246CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80DB30C81B5FA682007246CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80DB30CA1B5FA682007246CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartPenSample",
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+				);
+				INFOPLIST_FILE = SmartPenSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/ @executable_path/Products";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartPenSample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		80DB30CB1B5FA682007246CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartPenSample",
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+					/Users/Xiaoz/iOS,
+					Project/SmartPen/SmartPenCore/Products,
+				);
+				INFOPLIST_FILE = SmartPenSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/ @executable_path/Products";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartPenSample",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		80DB30CD1B5FA682007246CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPenSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPenSample.app/SmartPenSample";
+			};
+			name = Debug;
+		};
+		80DB30CE1B5FA682007246CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartPenSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPenSample.app/SmartPenSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DB30A11B5FA682007246CD /* Build configuration list for PBXProject "SmartPenSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB30C71B5FA682007246CD /* Debug */,
+				80DB30C81B5FA682007246CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB30C91B5FA682007246CD /* Build configuration list for PBXNativeTarget "SmartPenSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB30CA1B5FA682007246CD /* Debug */,
+				80DB30CB1B5FA682007246CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB30CC1B5FA682007246CD /* Build configuration list for PBXNativeTarget "SmartPenSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB30CD1B5FA682007246CD /* Debug */,
+				80DB30CE1B5FA682007246CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80DB309E1B5FA682007246CD /* Project object */;
+}

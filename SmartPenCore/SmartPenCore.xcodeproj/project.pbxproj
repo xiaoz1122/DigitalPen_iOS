@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		80EC500B1B61DC94009CC99F /* MyAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 80EC500C1B61DC94009CC99F /* Build configuration list for PBXAggregateTarget "MyAggregate" */;
+			buildPhases = (
+				80EC500F1B61DCDD009CC99F /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = MyAggregate;
+			productName = MyAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8076C5621B9EBD3200BE3705 /* BlePenUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8076C5601B9EBD3200BE3705 /* BlePenUtil.h */; };
+		8076C5631B9EBD3200BE3705 /* BlePenUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8076C5611B9EBD3200BE3705 /* BlePenUtil.m */; };
+		8088D82D1B5740DF00DB2AD7 /* SmartPenCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8088D82C1B5740DF00DB2AD7 /* SmartPenCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8088D8481B57452800DB2AD7 /* SmartPenService.h in Headers */ = {isa = PBXBuildFile; fileRef = 8088D8461B57452800DB2AD7 /* SmartPenService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8088D8491B57452800DB2AD7 /* SmartPenService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088D8471B57452800DB2AD7 /* SmartPenService.m */; };
+		8088D84D1B57472000DB2AD7 /* ScanDeviceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8088D84B1B57472000DB2AD7 /* ScanDeviceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8088D8521B5756ED00DB2AD7 /* DeviceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8088D8501B5756ED00DB2AD7 /* DeviceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8088D8531B5756ED00DB2AD7 /* DeviceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088D8511B5756ED00DB2AD7 /* DeviceObject.m */; };
+		80AE77071B57AE4A001A004D /* ConnectStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AE77051B57AE4A001A004D /* ConnectStateDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80AE770B1B57AF9B001A004D /* Enums.h in Sources */ = {isa = PBXBuildFile; fileRef = 80AE770A1B57AF9B001A004D /* Enums.h */; };
+		80C4BEE91B60EBE00079A9B4 /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = 80AE770A1B57AF9B001A004D /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DB30641B5F85F7007246CD /* PointChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DB30621B5F85F7007246CD /* PointChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DB30681B5F8643007246CD /* PointObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DB30661B5F8643007246CD /* PointObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80DB30691B5F8643007246CD /* PointObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DB30671B5F8643007246CD /* PointObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8076C5601B9EBD3200BE3705 /* BlePenUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlePenUtil.h; sourceTree = "<group>"; };
+		8076C5611B9EBD3200BE3705 /* BlePenUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlePenUtil.m; sourceTree = "<group>"; };
+		8088D8271B5740DF00DB2AD7 /* SmartPenCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartPenCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8088D82B1B5740DF00DB2AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8088D82C1B5740DF00DB2AD7 /* SmartPenCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartPenCore.h; sourceTree = "<group>"; };
+		8088D8381B5740DF00DB2AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8088D8391B5740DF00DB2AD7 /* SmartPenCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPenCoreTests.m; sourceTree = "<group>"; };
+		8088D8461B57452800DB2AD7 /* SmartPenService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPenService.h; sourceTree = "<group>"; };
+		8088D8471B57452800DB2AD7 /* SmartPenService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPenService.m; sourceTree = "<group>"; };
+		8088D84B1B57472000DB2AD7 /* ScanDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDeviceDelegate.h; sourceTree = "<group>"; };
+		8088D8501B5756ED00DB2AD7 /* DeviceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceObject.h; sourceTree = "<group>"; };
+		8088D8511B5756ED00DB2AD7 /* DeviceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceObject.m; sourceTree = "<group>"; };
+		80AE77051B57AE4A001A004D /* ConnectStateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectStateDelegate.h; sourceTree = "<group>"; };
+		80AE770A1B57AF9B001A004D /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		80DB305E1B5F30BD007246CD /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		80DB30611B5F3707007246CD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80DB30621B5F85F7007246CD /* PointChangeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointChangeDelegate.h; sourceTree = "<group>"; };
+		80DB30661B5F8643007246CD /* PointObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointObject.h; sourceTree = "<group>"; };
+		80DB30671B5F8643007246CD /* PointObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8088D8231B5740DF00DB2AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8076C55F1B9EBC2F00BE3705 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8076C5601B9EBD3200BE3705 /* BlePenUtil.h */,
+				8076C5611B9EBD3200BE3705 /* BlePenUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8088D81D1B5740DF00DB2AD7 = {
+			isa = PBXGroup;
+			children = (
+				8088D8291B5740DF00DB2AD7 /* SmartPenCore */,
+				8088D8361B5740DF00DB2AD7 /* SmartPenCoreTests */,
+				8088D8281B5740DF00DB2AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8088D8281B5740DF00DB2AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8088D8271B5740DF00DB2AD7 /* SmartPenCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8088D8291B5740DF00DB2AD7 /* SmartPenCore */ = {
+			isa = PBXGroup;
+			children = (
+				8076C55F1B9EBC2F00BE3705 /* Utils */,
+				80AE77091B57AEE8001A004D /* Symbol */,
+				8088D84F1B5755BA00DB2AD7 /* Model */,
+				8088D84A1B5746D000DB2AD7 /* Delegates */,
+				8088D8431B57439D00DB2AD7 /* Services */,
+				8088D82C1B5740DF00DB2AD7 /* SmartPenCore.h */,
+				8088D82A1B5740DF00DB2AD7 /* Supporting Files */,
+				80DB305E1B5F30BD007246CD /* Header.h */,
+				80DB30611B5F3707007246CD /* PrefixHeader.pch */,
+			);
+			path = SmartPenCore;
+			sourceTree = "<group>";
+		};
+		8088D82A1B5740DF00DB2AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8088D82B1B5740DF00DB2AD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8088D8361B5740DF00DB2AD7 /* SmartPenCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				8088D8391B5740DF00DB2AD7 /* SmartPenCoreTests.m */,
+				8088D8371B5740DF00DB2AD7 /* Supporting Files */,
+			);
+			path = SmartPenCoreTests;
+			sourceTree = "<group>";
+		};
+		8088D8371B5740DF00DB2AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8088D8381B5740DF00DB2AD7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8088D8431B57439D00DB2AD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8088D8461B57452800DB2AD7 /* SmartPenService.h */,
+				8088D8471B57452800DB2AD7 /* SmartPenService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8088D84A1B5746D000DB2AD7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8088D84B1B57472000DB2AD7 /* ScanDeviceDelegate.h */,
+				80AE77051B57AE4A001A004D /* ConnectStateDelegate.h */,
+				80DB30621B5F85F7007246CD /* PointChangeDelegate.h */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		8088D84F1B5755BA00DB2AD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8088D8501B5756ED00DB2AD7 /* DeviceObject.h */,
+				8088D8511B5756ED00DB2AD7 /* DeviceObject.m */,
+				80DB30661B5F8643007246CD /* PointObject.h */,
+				80DB30671B5F8643007246CD /* PointObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80AE77091B57AEE8001A004D /* Symbol */ = {
+			isa = PBXGroup;
+			children = (
+				80AE770A1B57AF9B001A004D /* Enums.h */,
+			);
+			name = Symbol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8088D8241B5740DF00DB2AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8088D8481B57452800DB2AD7 /* SmartPenService.h in Headers */,
+				80DB30641B5F85F7007246CD /* PointChangeDelegate.h in Headers */,
+				80DB30681B5F8643007246CD /* PointObject.h in Headers */,
+				8088D84D1B57472000DB2AD7 /* ScanDeviceDelegate.h in Headers */,
+				8088D82D1B5740DF00DB2AD7 /* SmartPenCore.h in Headers */,
+				8088D8521B5756ED00DB2AD7 /* DeviceObject.h in Headers */,
+				80AE77071B57AE4A001A004D /* ConnectStateDelegate.h in Headers */,
+				80C4BEE91B60EBE00079A9B4 /* Enums.h in Headers */,
+				8076C5621B9EBD3200BE3705 /* BlePenUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8088D8261B5740DF00DB2AD7 /* SmartPenCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8088D83D1B5740DF00DB2AD7 /* Build configuration list for PBXNativeTarget "SmartPenCore" */;
+			buildPhases = (
+				8088D8221B5740DF00DB2AD7 /* Sources */,
+				8088D8231B5740DF00DB2AD7 /* Frameworks */,
+				8088D8241B5740DF00DB2AD7 /* Headers */,
+				8088D8251B5740DF00DB2AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartPenCore;
+			productName = SmartPenCore;
+			productReference = 8088D8271B5740DF00DB2AD7 /* SmartPenCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8088D81E1B5740DF00DB2AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Xiaoz;
+				TargetAttributes = {
+					8088D8261B5740DF00DB2AD7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80EC500B1B61DC94009CC99F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8088D8211B5740DF00DB2AD7 /* Build configuration list for PBXProject "SmartPenCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8088D81D1B5740DF00DB2AD7;
+			productRefGroup = 8088D8281B5740DF00DB2AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8088D8261B5740DF00DB2AD7 /* SmartPenCore */,
+				80EC500B1B61DC94009CC99F /* MyAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8088D8251B5740DF00DB2AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80EC500F1B61DCDD009CC99F /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8088D8221B5740DF00DB2AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8076C5631B9EBD3200BE3705 /* BlePenUtil.m in Sources */,
+				8088D8491B57452800DB2AD7 /* SmartPenService.m in Sources */,
+				80DB30691B5F8643007246CD /* PointObject.m in Sources */,
+				8088D8531B5756ED00DB2AD7 /* DeviceObject.m in Sources */,
+				80AE770B1B57AF9B001A004D /* Enums.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8088D83B1B5740DF00DB2AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8088D83C1B5740DF00DB2AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8088D83E1B5740DF00DB2AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenSample/SmartPenSample,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SmartPenCore/PrefixHeader.pch";
+				INFOPLIST_FILE = SmartPenCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8088D83F1B5740DF00DB2AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Xiaoz/iOS,
+					Project/SmartPenSDK/SmartPenSample/SmartPenSample,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SmartPenCore/PrefixHeader.pch";
+				INFOPLIST_FILE = SmartPenCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		80EC500D1B61DC94009CC99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80EC500E1B61DC94009CC99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8088D8211B5740DF00DB2AD7 /* Build configuration list for PBXProject "SmartPenCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8088D83B1B5740DF00DB2AD7 /* Debug */,
+				8088D83C1B5740DF00DB2AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8088D83D1B5740DF00DB2AD7 /* Build configuration list for PBXNativeTarget "SmartPenCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8088D83E1B5740DF00DB2AD7 /* Debug */,
+				8088D83F1B5740DF00DB2AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EC500C1B61DC94009CC99F /* Build configuration list for PBXAggregateTarget "MyAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EC500D1B61DC94009CC99F /* Debug */,
+				80EC500E1B61DC94009CC99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8088D81E1B5740DF00DB2AD7 /* Project object */;
+}
