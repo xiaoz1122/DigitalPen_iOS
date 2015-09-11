@@ -15,6 +15,7 @@
 ## 集成SDK方式 ##
 1. 左键点击要集成的项目 -> General -> Embedded Binaries -> 点击“+”号，选择“Add Other”添加SmartPenCore/Products/SmartPenCore.framework库文件。
 2. 右键点击要集成的项目 -> Add Files to "You project",选择添加SmartPenCore项目文件，然后再General -> Embedded Binaries添加项目内的SmartPenCore.framework库文件。  
+
 提示：方式2可用于framework调试。
 
 
