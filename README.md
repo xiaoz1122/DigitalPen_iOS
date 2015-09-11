@@ -14,7 +14,8 @@
 
 ## 集成SDK方式 ##
 1. 左键点击要集成的项目 -> General -> Embedded Binaries -> 点击“+”号，选择“Add Other”添加SmartPenCore/Products/SmartPenCore.framework库文件。
-2. 右键点击要集成的项目 -> Add Files to "You project",选择添加SmartPenCore项目文件，然后再General -> Embedded Binaries添加项目内的SmartPenCore.framework库文件。
+2. 右键点击要集成的项目 -> Add Files to "You project",选择添加SmartPenCore项目文件，然后再General -> Embedded Binaries添加项目内的SmartPenCore.framework库文件。  
+提示：方式2可用于framework调试。
 
 
 ## 扫描数码笔设备 ##
@@ -28,13 +29,13 @@ SmartPenService对象会通过ScanDeviceDelegate返回扫描到的设备。
 ## 连接数码笔设备 ##
 通过ScanDeviceDelegate可以获取到返回的DeviceObject对象，然后执行以下方法：   
 ```
-[[SmartPenService sharePenService] connectDevice:selectItem delegate:self];
+[[SmartPenService sharePenService] connectDevice:deviceObject delegate:self];
 ```  
 SmartPenService对象会通过ConnectStateDelegate返回连接状态，返回“PEN_INIT_COMPLETE”表示完全连接完成。
 
 
 ## 获取笔坐标信息 ##
-连接成功后，可通过SmartPenService对象会通过PointChangeDelegate返回PointObject笔的坐标数据。  
+完全连接成功后，SmartPenService对象会通过PointChangeDelegate返回PointObject笔的坐标数据。  
 
 #####PointObject对象公开属性：#####
 - originalX：笔相对于接收器的实际X轴坐标，单位px；
@@ -46,16 +47,16 @@ SmartPenService对象会通过ConnectStateDelegate返回连接状态，返回“
 
 
 #####PointObject对象公开方法：#####
-- 设置纸张场景类型，目前支持A4、A4(横向)、A5、A5(横向)和自定义，设置后会输出响应尺寸的坐标；  
+- 设置纸张场景类型，目前支持A4、A4(横向)、A5和A5(横向)，设置后会输出相应尺寸的坐标；  
 ```   
 SmartPenService *service = [SmartPenService sharePenService];
 [service getCurrDevice].sceneType = A4; 
 ```  
 
-- 获取当前场景的宽，单位px。  
+- 获取当前SceneType场景的宽，单位px。  
 ```	getWidth() ```
 		
-- 获取当前场景的高，单位px。  
+- 获取当前SceneType场景的高，单位px。  
 ```	getHeight() ```
 	
 - 笔相对于当前场景的X轴坐标，单位px；  
