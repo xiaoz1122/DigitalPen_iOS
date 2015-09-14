@@ -16,7 +16,18 @@
 @synthesize sceneType;
 
 -(NSString *)getName{
-    return peripheral.name;
+    NSString *showName;
+    
+    //指定规则的名字过滤
+    NSRange range = [peripheral.name rangeOfString:@"Pen"];
+    if (range.location == 0 && range.length == 3) {
+        int index = peripheral.name.length-6;
+        //只显示最后6位识别码
+        showName = [NSString stringWithFormat:@"Pen%@",[peripheral.name substringFromIndex:index]];
+    }else{
+        showName = peripheral.name;
+    }
+    return showName;
 }
 
 @end
