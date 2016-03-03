@@ -48,3 +48,10 @@ typedef NS_ENUM(NSInteger,BatteryState) {
     /**良好**/
     GOOD = 2
 };
+
+typedef NS_ENUM(NSInteger, SceneType) {
+    A4 = 1,
+    A5 = 2,
+    A4_horizontal = 3,
+    A5_horizontal = 4
+};

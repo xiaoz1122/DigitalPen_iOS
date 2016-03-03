@@ -15,6 +15,8 @@
     NSString        *key;           //设备标识
     int             verMajor;       //设备大版本
     int             verMinor;       //设备小版本
+    NSInteger       sceneWidth;
+    NSInteger       sceneHeight;
     CBPeripheral    *peripheral;
 }
 
@@ -25,5 +27,11 @@
 
 //获取设备名字
 -(NSString *)getName;
+
+//获取场景宽度
+-(NSInteger)getSceneWidth;
+
+//获取场景高度
+-(NSInteger)getSceneHeight;
 
 @end

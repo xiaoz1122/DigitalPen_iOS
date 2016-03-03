@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B95E9CD8877D33EA04D4953FB0934396F6A072DA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "717d264b-3756-2f42-b015-9869229b28aa++9584" : 0,
+    "B95E9CD8877D33EA04D4953FB0934396F6A072DA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "035D4D79-15FC-4A54-84CA-3FCB0072356D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "717d264b-3756-2f42-b015-9869229b28aa++9584" : "SmartPen",
+    "B95E9CD8877D33EA04D4953FB0934396F6A072DA" : "DigitalPen_iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartPenSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartPenSample\/SmartPenSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.5.6:8443\/svn\/XN680",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "717d264b-3756-2f42-b015-9869229b28aa++9584"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiaoz1122\/DigitalPen_iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B95E9CD8877D33EA04D4953FB0934396F6A072DA"
+    }
+  ]
+}

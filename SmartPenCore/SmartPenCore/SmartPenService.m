@@ -322,6 +322,8 @@ static SmartPenService *_this = nil;
         for (int i = 0;i < pointList.count; i++) {
             item = [pointList objectAtIndex:i];
             item.sceneType = self.currConnectDevice.sceneType;
+            item.width = [self.currConnectDevice getSceneWidth];
+            item.height = [self.currConnectDevice getSceneHeight];
             [self sendPotinInfoHandler:item];
         }
     }

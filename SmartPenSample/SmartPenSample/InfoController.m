@@ -61,7 +61,7 @@
     //设置缩放后的宽度
     short width = 1280;
     //设置缩放后的高度，按sceneType设置的比例缩放
-    short height = [point getHeight] * ((float)width / (float)[point getWidth]);
+    short height = point.height * ((float)width / (float)point.width);
     
     self.labelWidth.text = [NSString stringWithFormat:@"%d",width];
     self.labelHeight.text = [NSString stringWithFormat:@"%d",height];

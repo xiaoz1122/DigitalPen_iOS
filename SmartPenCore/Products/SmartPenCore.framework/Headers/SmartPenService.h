@@ -23,9 +23,6 @@
     BOOL isBluetoothReady;      //蓝牙是否准备完成
     BOOL isScanning;            //是否正在扫描
     BOOL isConnected;           //是否已连接成功
-    BOOL lowBattery;            //电量低标记
-    BOOL isRoute;
-    BOOL isMove;
     float perX,perY;            //上一个点
 }
 @property (assign) id scanDeviceDelegate;
@@ -39,11 +36,28 @@
 +(id)sharePenService;
 
 +(NSString *)test;
-//扫描设备
+/**
+ 扫描设备
+ **/
 -(void)scanDevice:(id<ScanDeviceDelegate>)delegate;
+
+/**
+ 停止扫描
+ **/
 -(void)stopScanDevice;
 
-//连接蓝牙设备
+/**
+ 连连接蓝牙设备
+ **/
 -(void)connectDevice:(DeviceObject *)device delegate:(id<ConnectStateDelegate>)delegate;
+
+/**
+ 断开当前连接设备
+ **/
 -(void)disconnectDevice;
+
+/**
+ 获取当前连接的设备
+ **/
+-(DeviceObject *)getCurrDevice;
 @end

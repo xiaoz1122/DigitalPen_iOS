@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/DeviceObject.h</key>
 		<data>
-		YbKj+Zs/oaSXL7yElugGuJYYYTg=
+		1ci19d9kVsL0a7Auzz3VnhJMZVs=
 		</data>
 		<key>Headers/Enums.h</key>
 		<data>
-		IyaK3ubQXNlEAypHOwXBa7rNFY4=
+		qH7oGga7H9TZOU071xUI314OceQ=
 		</data>
 		<key>Headers/PointChangeDelegate.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/PointObject.h</key>
 		<data>
-		I3llQ7A1hU1TxoPAv6RrVLW0nVE=
+		Dt9tFPyjHndCbRNQP7pE9t+ndhE=
 		</data>
 		<key>Headers/ScanDeviceDelegate.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/SmartPenService.h</key>
 		<data>
-		OGTewqFohzOUp2PPxqv3w/SVr5A=
+		KQHpqpE4zGz1NRUt5yQYXCU4QcA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YkzpPsblnvpBVJhZP1657+3CR+k=
+		Foc2sKdcXHV5RMfhQOqxEOj6bCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,11 +53,11 @@
 		</data>
 		<key>Headers/DeviceObject.h</key>
 		<data>
-		YbKj+Zs/oaSXL7yElugGuJYYYTg=
+		1ci19d9kVsL0a7Auzz3VnhJMZVs=
 		</data>
 		<key>Headers/Enums.h</key>
 		<data>
-		IyaK3ubQXNlEAypHOwXBa7rNFY4=
+		qH7oGga7H9TZOU071xUI314OceQ=
 		</data>
 		<key>Headers/PointChangeDelegate.h</key>
 		<data>
@@ -65,7 +65,7 @@
 		</data>
 		<key>Headers/PointObject.h</key>
 		<data>
-		I3llQ7A1hU1TxoPAv6RrVLW0nVE=
+		Dt9tFPyjHndCbRNQP7pE9t+ndhE=
 		</data>
 		<key>Headers/ScanDeviceDelegate.h</key>
 		<data>
@@ -77,7 +77,7 @@
 		</data>
 		<key>Headers/SmartPenService.h</key>
 		<data>
-		OGTewqFohzOUp2PPxqv3w/SVr5A=
+		KQHpqpE4zGz1NRUt5yQYXCU4QcA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

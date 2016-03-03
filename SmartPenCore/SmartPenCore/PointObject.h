@@ -13,6 +13,8 @@
 
 @property (nonatomic,assign) short originalX;
 @property (nonatomic,assign) short originalY;
+@property (nonatomic,assign) short width;
+@property (nonatomic,assign) short height;
 @property (nonatomic,assign) BOOL isRoute;          //是否是笔迹
 @property (nonatomic,assign) BOOL isSw1;            //是否按键1被按下
 @property (nonatomic,assign) BOOL isMove;           //是否正在移动
@@ -20,11 +22,6 @@
 @property (nonatomic,assign) SceneType sceneType;  //场景类型
 
 -(NSString *)toString;
-
-//获取场景宽度
--(short)getWidth;
-//获取场景高度
--(short)getHeight;
 
 /**
  获取场景x值

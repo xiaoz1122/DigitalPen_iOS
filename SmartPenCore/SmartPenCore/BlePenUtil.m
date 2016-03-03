@@ -105,8 +105,7 @@ static NSMutableData *mBleDataBuffer;
             result[i] = bufferBytes[i];
         }
         
-        [buffer resetBytesInRange:NSMakeRange(0, newLength)];
-        [buffer setLength:residue];
+        [buffer replaceBytesInRange:NSMakeRange(0, newLength) withBytes:NULL length:0];
     }
     return result;
 }

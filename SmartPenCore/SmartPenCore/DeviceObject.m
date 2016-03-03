@@ -8,6 +8,12 @@
 
 #import "DeviceObject.h"
 
+#define VALUE_A4_WIDTH 10000;
+#define VALUE_A4_HEIGHT 14500;
+
+#define VALUE_A5_WIDTH 7000;
+#define VALUE_A5_HEIGHT 9500;
+
 @implementation DeviceObject
 
 @synthesize verMajor;
@@ -28,6 +34,36 @@
         showName = peripheral.name;
     }
     return showName;
+}
+
+-(NSInteger)getSceneWidth{
+    switch(sceneType){
+        case A4:
+            return VALUE_A4_WIDTH;
+        case A4_horizontal:
+            return VALUE_A4_HEIGHT;
+        case A5:
+            return VALUE_A5_WIDTH;
+        case A5_horizontal:
+            return VALUE_A5_HEIGHT;
+        default:
+            return sceneWidth;
+    }
+}
+
+-(NSInteger)getSceneHeight{
+    switch(sceneType){
+        case A4:
+            return VALUE_A4_HEIGHT;
+        case A4_horizontal:
+            return VALUE_A4_WIDTH;
+        case A5:
+            return VALUE_A5_HEIGHT;
+        case A5_horizontal:
+            return VALUE_A5_WIDTH;
+        default:
+            return sceneHeight;
+    }
 }
 
 @end
